@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.shiku.blue.restrictme.MainActivity"
+
+    >
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/selectApp"
+        android:orderInCategory="100"
+        android:title="Select apps"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/helpMenu"
+        android:orderInCategory="100"
+        android:title="Help"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/CreditMenu"
+        android:orderInCategory="100"
+        android:title="Credit"
+        app:showAsAction="never"
+        />
+
+</menu>

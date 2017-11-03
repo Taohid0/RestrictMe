@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:weightSum="1"
+
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:id="@+id/editTextWorkName"
+        android:hint="Scheduled Work Name"
+        android:paddingTop="15dp"
+        android:textSize="25dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+
+        android:layout_gravity="right"
+        android:textSize="20dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/buttonOk"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="buttonDone"
+
+
+        />
+    <TextView
+        android:id="@+id/lblTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CURRENT TIME (H:M)"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:paddingBottom="5dp"
+        android:gravity="center_horizontal"
+        android:layout_above="@+id/timePicker1"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="time to start"
+        android:id="@+id/btnChangeTime"
+        android:layout_below="@+id/editTextWorkName"
+        android:layout_toRightOf="@+id/tvTime"
+        android:layout_toEndOf="@+id/tvTime"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="time to end"
+        android:id="@+id/buttonTo"
+        android:clickable="false"
+        android:layout_below="@+id/editTextWorkName"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/buttonOk"
+        android:layout_alignStart="@+id/buttonOk" />
+
+    <TimePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/timePicker1"
+        android:layout_above="@+id/buttonOk"
+        android:layout_toRightOf="@+id/tvTime"
+        android:layout_toEndOf="@+id/tvTime"
+        android:clickable="false"
+        android:touchscreenBlocksFocus="false">
+
+
+    </TimePicker>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">RestrictMe</string>
+    <string name="action_settings">Settings</string>
+    <string name="New_Entry">New Entry</string>
+    <string name="ok">DONE</string>
+    <string name="determined_work">Determined Work</string>
+    <string name="time">TIME</string>
+    <string name="From">From</string>
+    <string name="howToUseTag">How to use : \n\t</string>
+    <string name="howToUseKitkat">Goto settings and give the access,if you don\'t give
+        access this app won\'t work correctly (only for android Lollipop and newer versions).
+
+        \n\nGive your scheduled work name and time schedule (the duration when you want to restrict the apps).
+        Press TIME TO START and TIME TO END buttons to input your schedule,then press DONE.
+
+        \n\nGoto SELECT APPS option to select the apps to which you are addicted to ( the apps kills your valuable time)
+         or the apps you want to restrict for certain period. Touch on the app name to add it to restricted
+        list,touch again to remove it from the list.
+        \n\nTo delete a time schedule long press on the item,delete option will appear.
+
+        \n\nHOW IT WORKS:
+        \nIf user tries to use the apps which are restricted (games,social networks etc) during this schedule/schedules then
+                                an warning screen will appear and will freeze the screen (back button won\'t work)
+        for few seconds. After the freezing time device (phone/tablet) will go to home screen. It will happen
+     when only the restricted apps will run during given time duration, all other apps won\'t be interrupted.
+
+        \n\nUser will get 30-35 seconds time before appearing the warning screen so that user can use the restricted apps
+        in case of emergency.
+        \nUser can\'t remove any app from the restricted list or change the time schedule during previous schedule.
+        By default settings will be in restricted list for this duration and user will be inspired to do his/her determined work.
+        \n\n Please note that , no apps will be interrupted without restricted apps and restricted apps will be interrupted
+        only during user\'s given schedule.
+                                  </string>
+    <string name="credit">\nThis project is developed under the course Software Development Project,CSE Discipline,Khulna University.\n</string>
+    <string name="suprvisor">Project supervisors </string>
+     <string name="supervisorsName">SK Alamgir Hossain\nSarfaraz Newaz\nDebasish Chakroborti\n</string>
+    <string name="developerTag">Developer</string>
+     <string name="developerName">Taohidul Islam\n</string>
+    <string name="designer">Kushal Ghosh</string>
+    <string name="howToUseLollipop">Goto settings and give the access (only for android Lollipop and newer versions).
+
+        \n\nGive your scheduled work name and time schedule (the duration when you want to restrict the apps).
+        Press TIME TO START and TIME TO END buttons to input your schedule,then press DONE.
+
+        \n\nGoto SELECT APPS option to select the apps to which you are addicted to ( the apps kills your valuable time)
+         or the apps you want to restrict for certain period. Touch on the app name to add it to restricted
+        list,touch again to remove it from the list.
+        \n\nTo delete a time schedule long press on the item,delete option will appear.</string>
+
+   <string name="howItWorksString">\nIf user tries to use the apps which are restricted during this schedule\\schedules then
+                                an warning screen will appear and will freeze the screen (back button won\'t work)
+        for little amount of time. After the freezing time device (phone/tablet) will go to home screen. Only it will happen
+    when only restricted will run, all other apps won\'t be interrupted.</string>
+
+</resources>

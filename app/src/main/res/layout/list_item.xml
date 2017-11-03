@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextView
+    android:textStyle="italic"
+    android:textAlignment="center"
+    android:background="@color/listItemColor"
+    android:textColor="@android:color/white"
+    android:textSize="25dp"
+    android:minHeight="60dp"
+    android:id="@+id/listItemxml"
+    android:paddingTop="1dp"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+</TextView>

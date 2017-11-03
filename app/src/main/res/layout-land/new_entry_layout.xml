@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:weightSum="1">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextWorkName"
+        android:hint="@string/determined_work"
+        android:paddingTop="15dp"
+        android:textSize="25dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+
+        android:layout_gravity="right"
+        android:textSize="20dp"
+        android:id="@+id/buttonOk"
+        android:onClick="buttonDone"
+
+        android:layout_alignBottom="@+id/timePicker1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/buttonTo"
+        />
+    <TextView
+        android:id="@+id/lblTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_above="@+id/timePicker1"
+        android:layout_toLeftOf="@+id/buttonTo"
+        android:layout_toStartOf="@+id/buttonTo"
+        android:paddingBottom="5dp"/>
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="time to start"
+        android:id="@+id/btnChangeTime"
+        android:layout_below="@+id/editTextWorkName"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="time to end"
+        android:id="@+id/buttonTo"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TimePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/timePicker1"
+        android:scaleX=".8"
+        android:scaleY=".8"
+        android:layout_alignTop="@+id/btnChangeTime"
+        android:layout_alignRight="@+id/lblTime"
+        android:layout_alignEnd="@+id/lblTime">
+
+    </TimePicker>
+
+</RelativeLayout>

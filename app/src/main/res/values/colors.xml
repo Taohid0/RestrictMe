@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="listItemColor">#1569C7</color>
+    <color name="buttonColor">#ECEFF1</color>
+    <color name="textColor">#000000</color>
+    <color name="creditBackground">#3F51B5</color>
+    <color name="wt">#FFFFFF</color>
+    <color name="test">#010349</color>
+    <color name="btnclr">#F6F8FF</color>
+    <color name="h">#05051F</color>
+</resources>
